@@ -17,7 +17,7 @@ npm run break
 
 ## Expected behaviour
 
-The syntax error is reported, but the dev server stays alive and gracefully recovers once the error is fixed.
+The syntax error is reported, but the process stays alive and gracefully recovers once the error is fixed.
 
 Ideally this would be the case for anything that errors on startup.
 
