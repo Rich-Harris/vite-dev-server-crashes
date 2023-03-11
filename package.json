@@ -1,0 +1,11 @@
+{
+	"type": "module",
+	"dependencies": {
+		"vite": "^4.1.4"
+	},
+	"scripts": {
+		"fix": "cp vite.config.fixed.js vite.config.js",
+		"break": "cp vite.config.broken.js vite.config.js",
+		"dev": "npm run fix && vite dev"
+	}
+}
